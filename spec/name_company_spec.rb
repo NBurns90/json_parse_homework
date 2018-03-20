@@ -28,4 +28,8 @@ describe NameCompany do
     expect(@file.name_company[7]['past_companies']).to include("Divape", "Fivechat")
   end
 
+  it "Last name must be of type string" do
+    expect(@file.name_company[4]['first_name']).to be_instance_of(String)
+  end
+
 end
