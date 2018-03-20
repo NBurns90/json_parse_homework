@@ -32,4 +32,10 @@ describe NameCompany do
     expect(@file.name_company[4]['first_name']).to be_instance_of(String)
   end
 
+  it "All firstnames must be of type string" do
+    @file.name_company.each do |name|
+      expect(name['first_name']).to be_instance_of(String)
+    end
+  end
+
 end
