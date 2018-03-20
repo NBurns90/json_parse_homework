@@ -10,7 +10,8 @@ The tests for this target each layer of the structure.  The structures tested in
 - Each person must have 5 past companies
 - Theresita Bewicke place of work should be Leexo, located in Sergelen and in the Business Development department
 - 2 companies that Tyne Towe worked for are Divape and Fivechat
-- Last name must be of type string
+- Last last names must be of type string
+- All first names must be of type string
 
 # To Run The Tests
 
